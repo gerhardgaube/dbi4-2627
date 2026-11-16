@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 
 # Replace the placeholders with your actual MongoDB connection string
-mongo_uri = "mongodb+srv://gerhardgaube:test12345@testgerhard.0rechap.mongodb.net/"
+mongo_uri = "mongodb+srv://:@testgerhard.0rechap.mongodb.net/"
 
 # Connect to the MongoDB database
 client = MongoClient(mongo_uri)
