@@ -5,7 +5,7 @@ from pymongo.errors import ConnectionFailure, ConfigurationError, OperationFailu
 # ------------------------------------------------------------
 # MongoDB Atlas Connection String (ANPASSEN!)
 # ------------------------------------------------------------
-MONGODB_URI = "mongodb+srv://gerhardgaube:test12345@testgerhard.0rechap.mongodb.net/"
+MONGODB_URI = "mongodb+srv://:@testgerhard.0rechap.mongodb.net/"
 
 DB_NAME = "sample_mflix"
 
