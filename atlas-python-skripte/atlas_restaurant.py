@@ -3,7 +3,7 @@ from operator import gt, lt
 from pymongo import MongoClient
 
 # MongoDB connection string
-connection_string = "mongodb+srv://gerhardgaube:test12345@testgerhard.0rechap.mongodb.net/"  # Example: "mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority"
+connection_string = "mongodb+srv://:testgerhard.0rechap.mongodb.net/"  # Example: "mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority"
 
 # Connect to MongoDB
 client = MongoClient(connection_string)
