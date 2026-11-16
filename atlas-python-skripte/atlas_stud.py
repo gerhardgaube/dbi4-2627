@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Verbindungszeichenfolge für MongoDB Atlas (ersetzen Sie diese mit Ihrer eigenen)
-mongo_uri = "mongodb+srv://gerhardgaube:test12345@testgerhard.0rechap.mongodb.net/"
+mongo_uri = "mongodb+srv://:@testgerhard.0rechap.mongodb.net/"
 
 # Verbindung zur Datenbank herstellen
 client = MongoClient(mongo_uri)
